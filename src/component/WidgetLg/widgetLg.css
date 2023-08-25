@@ -1,0 +1,53 @@
+.widgetlg{
+    flex: 2;
+    padding: 20px;
+    margin-right:0px;
+    -webkit-box-shadow: 2px -3px 19px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: 2px -3px 19px 0px rgba(0,0,0,0.78);
+    box-shadow: 2px -3px 19px 0px rgba(0,0,0,0.78);
+}
+.widgetlgTitle{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.widgetlgTable{
+width: 100%;
+border-spacing: 20px;
+
+}
+
+.widgetlgTh{
+    text-align: left;
+}
+
+.widgetlgUser{
+display: flex;
+align-items: center;
+margin-right: 5px;
+font-weight: 600;
+
+}
+.widgetlgButton{
+    padding: 5px 8px;
+    border: none;
+    border-radius: 10px;
+}
+.widgetlgAmount,.widgetlgDate{
+    font-weight: 150;
+
+}
+.widgetsmImg{
+    margin-right: 10px;
+}
+
+.widgetlgButton.Approved{
+    background-color: #e5faf2;
+}
+
+.widgetlgButton.Pending{
+    background-color: #fff0f1;
+}
+.widgetlgButton.Declined{
+    background-color: #ebf1fe;
+}

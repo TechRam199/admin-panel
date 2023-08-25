@@ -1,0 +1,24 @@
+.containor{
+    display: flex;
+    margin-top: 10px;   
+}
+.home{
+    flex: 4;
+    
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+
+}
+.Link{
+  
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .sidebar{
+
+    display: none;
+} */
