@@ -1,0 +1,33 @@
+.Containor{
+    flex: 4;
+   margin-left: 20px;
+}
+
+.loginContainor{
+    width: 200px;
+    margin-top: 20px;
+}
+.loginitem{
+    margin-top: 10px;
+}
+.loginitem>label{
+margin: 3px 5px;
+}
+
+.loginitem>input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+.login{
+    padding: 8px 20px ;
+background-color: teal;
+border: none;
+margin-top: 20px;
+color: white;
+font-weight: 600;
+border-radius: 10px;
+margin-left: 10px;
+}

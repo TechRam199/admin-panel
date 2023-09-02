@@ -1,0 +1,29 @@
+.Containor{
+    flex: 2;
+  padding: 20px;
+margin: 0px 20px;
+box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.WidgetListTitle{
+font-size: 24px;
+font-weight: 600;
+}
+
+.WidgetTable{
+    font-weight:600;
+    width: 100%;
+    border-spacing:10px;
+    align-items: center;
+}
+td{
+    text-align: center;
+    font-weight: 300;
+}
+
+.btn{
+    padding: 3px 5px;
+    font-size: 14px;
+
+}

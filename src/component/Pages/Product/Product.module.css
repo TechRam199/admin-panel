@@ -1,0 +1,27 @@
+.Containor{
+    flex: 4;
+}
+
+.ProductListItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductImage{
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-right: 30px;
+}
+
+.EditButton{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.DeleteButton{
+    color: rgb(198, 36, 36);
+}

@@ -1,0 +1,44 @@
+.Containor{
+    flex: 1;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+.WidgetImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.WidgetListItem{
+display: flex;
+align-items: center;
+margin:20px 10px;
+justify-content: space-between;
+
+}
+
+.VisibleIcon{
+  margin-right: 5px;
+}
+
+.WidgetListButton{
+display: flex;
+font-weight: 400;
+border-radius: 5px;
+align-items: center;
+padding: 3px 5px;
+justify-content: space-between;
+
+}
+
+.WidgetListTitle{
+font-size: 24px;
+font-weight: 600;
+}

@@ -1,0 +1,8 @@
+.Containor{
+    flex: 4;
+}
+
+.HomeWidget{
+    display: flex;
+    justify-content: space-between;
+}

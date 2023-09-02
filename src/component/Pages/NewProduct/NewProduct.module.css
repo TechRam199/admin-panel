@@ -1,0 +1,37 @@
+.Containor{
+    flex: 4;
+    padding: 20px;
+}
+
+.addProductItem{
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    flex-direction: column;
+}
+
+.addProductItem>label{
+    margin-top: 5px;
+}
+
+.addProductItem>input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top:3px ;
+}
+
+.addProductItem>select{
+padding: 10px ;
+border: 1px solid lightgray;
+}
+.addProudctButton{
+    padding: 8px 16px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}

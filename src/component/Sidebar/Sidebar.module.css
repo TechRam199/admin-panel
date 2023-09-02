@@ -1,0 +1,37 @@
+.containor{
+    flex: 1;
+   background-color: rgb(230, 239, 240);
+   height:calc(100vh - 60px);
+   position: sticky;
+   top: 50px;
+   padding: 0px 5px;
+}   
+
+.title{
+font-size: 16px;
+font-weight: 500;
+margin: 5px;
+color:  rgb(187, 186, 186);
+  
+}
+.SidebarListitem{
+    color: #555;
+
+border-radius:10px ;
+margin: 3px 5px;
+}
+
+.SidbarList{
+    list-style: none;
+}
+
+.SidebarListitem.active,.SidebarListitem:hover{
+    background-color:  rgb(245, 232, 232);
+    border-bottom: 1px solid blue;
+}
+
+.SidebarIcon{
+    margin-right:10px;
+    color: gray;
+}
+

@@ -1,0 +1,55 @@
+.Containor{
+flex: 4;
+
+}
+
+
+
+
+
+
+
+
+.userImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+
+
+.userItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EditButton{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.DeleteButton{
+    color: rgb(198, 36, 36);
+
+}
+
+.DeleteButton:hover{
+   color: #dcd331;
+
+}
+
+.profileImage{
+  display: flex;
+    align-items: center;
+  border-radius: 50%;
+}
+.image{
+    border-radius: 50%;
+    margin-right: 20px;
+}
