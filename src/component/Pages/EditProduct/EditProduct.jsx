@@ -8,14 +8,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import app from '../../../Firebase';
 import { updateProduct } from '../../../Redux/ApiCalls';
-import axios from 'axios';
-import { userRequest } from '../../../RequestMethod';
+
 
 function EditProduct(_id) {
-  const [title , setTitle] = useState("")
-  const [desc , setDesc] = useState("")
   const [file , setFile] = useState(null)
-
   const [editProduct, seteditProdut] = useState({})
 
   const dispatch= useDispatch()
@@ -24,16 +20,13 @@ const  productId = location.pathname.split("/")[2]
 const product = useSelector((state)=>state.product.products.find((item)=>item._id===productId))
 
 
-// const handleFile = (e)=>{
-// setfile(e.target.files[0])
-// }
-console.log(file,"file")
+
 
 const handleChange= (e )=>{
 seteditProdut({...editProduct , [e.target.name]:e.target.value})
 
 }
-  console.log(editProduct,"editProduct")
+
 
   const handleupdate = (_id)=>{
   
@@ -162,7 +155,6 @@ seteditProdut({...editProduct , [e.target.name]:e.target.value})
 </div>
 <div className={Style.ProductBottomLeft}>
 <div className={Style.ProductBottomupload}>
-{/* <img src={product.img} alt=""  className={Style.ProductImage}/> */}
 <label htmlFor="file"> <PublishIcon/></label>
 <input type="file" name='file' id='file' style={{display:"none"}}  onChange={(e)=>setFile(e.target.files[0])} />
 </div>

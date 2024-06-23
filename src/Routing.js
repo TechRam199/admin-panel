@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Topbar from "./component/Topbar/Topbar";
 import Sidebar from "./component/Sidebar/Sidebar";
 import Home from "./component/Pages/Home/Home";
-import { Route, Router, Routes } from "react-router-dom";
+import { Route,Routes } from "react-router-dom";
 import NewProduct from "./component/Pages/NewProduct/NewProduct"
 import Product from "./component/Pages/Product/Product";
 import User from "./component/Pages/User/User";
@@ -11,16 +11,12 @@ import EditUser from "./component/Pages/EditUser/EditUser";
 import Newuser from "./component/Pages/Newuser/Newuser";
 import Login from "./component/Pages/Login/Login";
 import LoginType from './component/Pages/LoginType/LoginType';
-import { userRequest } from './RequestMethod';
+
 
 function Routing() {
-
-
-
-  return (
+ return (
     <div>
-    
-    <Topbar/>
+     <Topbar/>
    <div className="containor">
 <Sidebar/>
 <Routes>

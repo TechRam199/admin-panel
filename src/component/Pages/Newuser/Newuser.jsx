@@ -8,10 +8,8 @@ import { useDispatch } from 'react-redux';
 function Newuser() {
   const dispatch = useDispatch()
   const [file, setFile] = useState("")
-  const [username , setusername] = useState("")
-  const [password , setpassword] = useState("")
-  const [email , setemail] = useState("")
-  const [_id, set_id] = useState("")
+
+
 
   const [inputs, setinputs] = useState({})
 

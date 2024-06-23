@@ -12,19 +12,11 @@ import { uploadFile } from '../../../user1RequestMethod';
 import { updateuser1 } from '../../../Redux/user1Apicalls';
 function EditUser() {
   const [file, setFile] = useState("")
- const [ username, setuserName] = useState("")
- const [ email, setEmail] = useState("")
- const [ password, setPassword] = useState("")
   const [inputs, setinputs] = useState({})
-const dispatch = useDispatch()
-
+  const dispatch = useDispatch()
   const loacation = useLocation()
   const ProductId = loacation.pathname.split("/")[2]
-
   const users = useSelector(state=>state.user1.userslist.find((item)=>item._id===ProductId))
-
-console.log(users,"users")
-
 
 const handleChange = (e)=>{
 setinputs({...inputs, [e.target.name]:e.target.value})
@@ -135,23 +127,13 @@ console.log(inputs,"ope")
 <img src={users.profileImage} alt="" className={Style.uploadImage} />
 <label htmlFor="file"><PublishIcon className={Style.uplodaIcon}/> </label>
 <input type="file" id='file'style={{display:"none"}} onChange={(e)=>setFile(e.target.files[0])}/>
-
 </div>
 <button className={Style.updateButton} onClick={handleUpdate}>Update Now</button>
-
-
 </div>
-
-
 </form>
 
-
-
-
 </div>
-
-
-    </div>
+  </div>
   )
 }
 

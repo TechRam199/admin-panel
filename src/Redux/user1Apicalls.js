@@ -33,7 +33,7 @@ export const Deleteuser = async (id, dispatch) => {
 
    dispatch(Deleteuser1Start())
   try {
-      const res = await publicRequest.delete(`/users/${id}`);
+      // const res = await publicRequest.delete(`/users/${id}`);
     dispatch(Deleteuser1Sucess(id));
   } catch (error) {
     dispatch(Deleteuser1Fail());

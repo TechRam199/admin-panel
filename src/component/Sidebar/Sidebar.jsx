@@ -10,10 +10,8 @@ import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-import { ChatBubble, QuestionAnswerOutlined, WorkHistoryOutlined } from '@mui/icons-material';
+import { QuestionAnswerOutlined, WorkHistoryOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-
-
 
 function Sidebar() {
   return (

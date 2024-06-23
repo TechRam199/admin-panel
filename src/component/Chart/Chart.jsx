@@ -1,13 +1,10 @@
 import React from 'react'
 import  Style from "./Chart.module.css"
-import { ResponsiveContainer, BarChart,Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart } from 'recharts';
+import { ResponsiveContainer,Line,XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart } from 'recharts';
 
 
 
 function Chart({data, title , dataKey, grid }) {
-
-
-
 
   return (
     <div className={Style.Containor}>

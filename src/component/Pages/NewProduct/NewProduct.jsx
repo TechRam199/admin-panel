@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Style from "./NewProduct.module.css"
-import { uploadFile } from '../../../user1RequestMethod';
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import app from '../../../Firebase';
 import { AddProduct } from '../../../Redux/ApiCalls';

@@ -1,10 +1,7 @@
-import React, { useEffect , useState , useMemo } from 'react'
+import React, { useEffect } from 'react'
 import Style from "./User.module.css"
 import { DataGrid} from '@mui/x-data-grid';
 import {Link} from "react-router-dom"
-import {userData} from "..//..//..//DummyData"
-import { format } from 'timeago.js';
-import axios from 'axios';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import { useDispatch , useSelector } from 'react-redux';
 import { Deleteuser, getuser1 } from '../../../Redux/user1Apicalls';
