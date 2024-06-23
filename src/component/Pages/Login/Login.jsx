@@ -18,7 +18,7 @@ login1(dispatch,{username,password})
 
   return (
     <div className={Style.Containor}>
-      <h2>Login Pages</h2>
+      <h2>Login Page</h2>
       <div className={Style.loginContainor}>
 <div className={Style.loginitem}>
 <label > User Name :</label>
