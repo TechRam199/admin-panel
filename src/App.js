@@ -1,3 +1,4 @@
+
 import { useSelector } from "react-redux";
 import "./App.css"
 import Routing from "./Routing"
@@ -18,8 +19,22 @@ function App() {
   
   
        </div>
+  )
+}
     
+import LamaRouting from "./LamaRouting";
+
+
+function App() {
+  return (
+   
+    <div className="App">
+ 
+ <LamaRouting/>
+   </div>
+  
+
   );
 }
 
-export default App;
+export default App

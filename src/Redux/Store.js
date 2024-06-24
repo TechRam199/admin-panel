@@ -28,7 +28,6 @@ const rootReducer = combineReducers({user:userReducer , product:productReducer ,
 
 export const store = configureStore ({    
     reducer:persistedReducer,
-
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {

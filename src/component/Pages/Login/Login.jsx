@@ -29,7 +29,7 @@ login1(dispatch,{username,password})
 <input type="password" onChange={(e)=>setpassword(e.target.value)}/>
 </div>
 <button className={Style.login} onClick={handleLogin}>Login</button>
-{ error && <h5 style={{color:"red"}}>something Went Wrong pssword</h5>}
+{ error && <h5 style={{color:"red"}}>something Went Wrong password</h5>}
 </div>
 
     </div>
